@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.francisco.finalprojectweek1.MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/content_main">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/media_player_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/gray_button_boarder"
+        android:gravity="center_horizontal">
+        
+        <LinearLayout
+            android:id="@+id/media_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnPlay"
+                android:src="@drawable/ic_play_arrow"
+                android:background="@drawable/green_button_boarder"
+                android:layout_width="70dip"
+                android:layout_height="70dip" />
+
+            <ImageButton
+                android:id="@+id/btnPause"
+                android:src="@drawable/ic_pause"
+                android:background="@drawable/yellow_button_boarder"
+                android:layout_width="70dip"
+                android:layout_height="70dip" />
+
+            <ImageButton
+                android:id="@+id/btnStop"
+                android:src="@drawable/ic_stop"
+                android:background="@drawable/red_button_boarder"
+                android:layout_width="70dip"
+                android:layout_height="70dip" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

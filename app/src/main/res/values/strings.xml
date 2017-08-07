@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FinalProjectWeek1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="photo">Take a Picture!</string>
+    <string name="francisco">Francisco\'s Projects</string>
+    <string name="welcome">Welcome to</string>
+    <string name="hello">Hello String</string>
+    <string name="sum">SUM</string>
+    <string name="second">Go to second activity</string>
+    <string name="KEY_VALUE1">value1</string>
+    <string name="KEY2">person</string>
+    <string name="KEY1">value</string>
+    <string name="action_media">Media player</string>
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">AIzaSyCOo5iuQvpmjNT0YMf2WFF-xlZnf9ew-sY</string>
+    <string name="resume">
+        a
+    </string>
+</resources>

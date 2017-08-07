@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"></group>
+
+    <item android:title="Week1">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home"
+                android:title="Home" />
+            <item
+                android:id="@+id/w1d3"
+                android:icon="@drawable/ic_3"
+                android:title="Day3" />
+            <item
+                android:id="@+id/w1d4_1"
+                android:icon="@drawable/ic_4_1"
+                android:title="Day4_1" />
+            <item
+                android:id="@+id/w1d4_2"
+                android:icon="@drawable/ic_4_2"
+                android:title="Day4_2" />
+        </menu>
+    </item>
+
+    <item android:title="Homework">
+        <menu>
+            <item
+                android:id="@+id/calculator"
+                android:icon="@drawable/ic_calculator"
+                android:title="Calculator" />
+            <item
+                android:id="@+id/camera_emi"
+                android:icon="@drawable/ic_camera"
+                android:title="CameraEMI" />
+        </menu>
+    </item>
+
+    <item android:title="Extra">
+        <menu>
+            <item
+                android:id="@+id/git"
+                android:icon="@drawable/ic_personal"
+                android:title="Personal GIT" />
+
+            <item
+                android:id="@+id/location"
+                android:icon="@drawable/ic_location"
+                android:title="Living Location" />
+        </menu>
+    </item>
+
+</menu>
